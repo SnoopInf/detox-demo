@@ -1,0 +1,185 @@
+rset "utf-8";
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #ffb53f;
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+	background: url(../images/detox_logo.png) no-repeat 0 0;
+	position: relative;
+    left: -174px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default{
+    float: right;
+    position: relative;
+    left: 70px;
+}
+
+
+.container-map{
+	background:#092323;
+	width: 100%;
+}
+
+.map{
+	background: url(../images/detox_map.png) no-repeat 0 0;
+    width: 838px;
+    height: 554px;
+    margin: 0 auto;
+}
+
+input.search-query {
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    width: 250px;
+    margin-top: -2px;
+}
+
+form.form-search {
+	display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+form.form-search:before {
+    content:'';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+}
+
+.btn-success{
+	float: right;
+    position: relative;
+    top: -50px;
+    left: -10px;
+    width: 155px;
+    border-radius: 25px;
+    height: 37px;
+}
+
+.container-statistic{
+	background-color: #f6f6f8;
+	width: 100%;
+	padding: 30px;
+	
+}
+
+.statistic{
+	width: 1025px;
+	margin: 0 auto;
+}
+
+.statistic img{
+	width: 250px;
+}
+
+.container-statistic span{
+	color: #515A69;
+	font-size: 27px;
+    margin: 20px auto 30px;
+    width: 505px;
+    display: block;
+}
+
+.container-statistic .static-text{
+	color: #515A69;
+	font-size: 16px;
+	margin: 15px 0px 30px -25px;
+	width: 300px;
+	text-align: center;	
+}
+
+.content-text{
+	border: dashed 1px #515A69;
+	color: #ff8300;
+	border-radius: 5px;
+	font-size: 20px;	
+	text-align: center;
+	background-color: #ffffff;
+	padding: 25px;
+	margin: 25px;
+	
+}
+
+.registr{
+	margin: 50px auto;
+	width: 600px;	
+}
+
+.btn-registr{
+	background-color: #ffb53f;
+    width: 185px;
+    border-radius: 25px;
+    height: 45px;
+    color: #ffffff;
+}
+
+.btn-registr-2{
+	background-color: #ffffff;
+    width: 185px;
+    border-radius: 25px;
+    height: 45px;
+    color: #515A69;
+    border: solid 2px #a5acba;
+}
+
+.col-registr-2{
+	float:right;
+}
+
+.page-footer{
+	background-color: #073035;
+	height: 125px;
+}
+.page-footer a{
+	color: #ffffff;
+}
+
+.footer-copyright{
+    position: relative;
+    bottom: 0px;
+    display: block;
+    top: 43px;
+    color: #466468;
+    font-size: 12px;
+}
+.footer-copyright a{
+	color: #466468;
+}
+
+.col-md-2{
+   width: auto;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.footer-link{
+	width: 700px;
+    margin: 35px auto;
+}
+
